@@ -47,7 +47,7 @@ $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ .venv\Scripts\Activate.ps1
 
 # macOS
-$ source .venv/bin/activate
+$ source ../venvs/.MadMtnMysticVenv/bin/activate
 
 (.venv) $ pip install -r requirements.txt
 (.venv) $ python manage.py migrate
